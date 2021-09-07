@@ -1,0 +1,134 @@
+/*
+#1 COLORS
+shades
+
+primary
+
+tints
+
+ greys
+ 
+*/
+
+/*
+#2 FONT SIZES
+
+-main heading--
+*/
+
+/*
+#3 LINE HEIGHT
+*/
+
+/*
+#4 LETTERS SPACING
+*/
+
+/*
+#5 BOX SHADOWS
+
+*/
+
+/*
+#6 BORDER RADIUS
+
+*/
+
+/*
+#7 TYPOGRAPY
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  color: #444;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.3rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem 4rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.horizontal-gap {
+  column-gap: 9.8rem;
+}
+.medium-horizontal-gap {
+  column-gap: 4.8rem;
+}
+.least-horizontal-gap {
+  column-gap: 2.4rem;
+}
+
+.heading-primary {
+  font-size: 6.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.07;
+  color: #222;
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #222;
+}
+
+.sub-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+
+.heading-description {
+  color: #f5d49d;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 2.6rem;
+}
+.btn:link,
+.btn:active {
+  font-size: 3rem;
+  font-weight: 600;
+  display: inline-block;
+}
